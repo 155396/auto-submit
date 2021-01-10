@@ -38,28 +38,19 @@ cpdaily:
         #表单项标题
         title: 今日体温是否正常
         #表单项默认值
-        value: 体温正常（<37.3)
+        value: 体温正常（<37.3℃)
     - default:
         type: 2
-        title: 本人是否接触过新型冠状病毒患者
+        title: 今天是否去过中高风险地区
         value: 否
     - default:
         type: 2
-        title: 本人是否有新型冠状病毒类似病状
+        title: 今天是否有跨市域移动
         value: 否
     - default:
         type: 2
-        title: 本人隔离方式
-        value: 家庭自我隔离
-    - default:
-        type: 2
-        title: 本人身体状况
-        value: 身体健康
-    - default:
-        type: 2
-        title: 共同居住家属情况
+        title: 今日状态
         value: 正常
-
 Info:
   ServerChan: # 填写Server酱的SCKEY
   Qsmg: # 填写Qsmg酱的SCKEY
